@@ -17,3 +17,4 @@ for i in range(6):
     imdata = np.array(images[i][:,:,:])
     imfile = 'test' + str(i) + '.jpg'
     imageio.imwrite(imfile, imdata)
+# https://stackoverflow.com/a/52691552
