@@ -2,8 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import h5py
 import imageio
+import sys
 
-train_h5 = h5py.File('example_train.h5', 'r')
+train_h5 = h5py.File(sys.argv[1], 'r')
 print(list(train_h5.keys()))
 
 images = train_h5['images']
