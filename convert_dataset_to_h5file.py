@@ -5,8 +5,8 @@ import glob
 import h5py
 import cv2
 
-IMG_WIDTH = 64
-IMG_HEIGHT = 64
+IMG_WIDTH = 32
+IMG_HEIGHT = 32
 
 folder = sys.argv[1]
 category1 = sys.argv[2]
