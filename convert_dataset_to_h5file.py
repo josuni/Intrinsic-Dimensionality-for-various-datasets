@@ -1,4 +1,5 @@
 #https://stackoverflow.com/a/66641176
+
 import sys
 import glob
 import h5py
@@ -16,7 +17,7 @@ print(nfiles)
 # resize all images and load into a single dataset
 with h5py.File(h5file,'w') as  h5f:
     img_ds = h5f.create_dataset('images',shape=(nfiles, IMG_WIDTH, IMG_HEIGHT,3), dtype=int)
-    for cnt, ifile in enumerate(glob.iglob('./*.ppm')) :
+    for cnt, ifile in enumerate(glob.iglob('./*.jpg')) :
         img = cv2.imread(ifile, cv2.IMREAD_COLOR)
         # or use cv2.IMREAD_GRAYSCALE, cv2.IMREAD_UNCHANGED
         img_resize = cv2.resize( img, (IMG_WIDTH, IMG_HEIGHT) )
