@@ -41,7 +41,6 @@ dependencies:
   - h5py=2.9.0=py27h7918eee_0
   - hdf5=1.10.4=hb1b8bf9_0
   - icu=58.2=he6710b0_3
-  - imageio=2.6.1=py27_0
   - intel-openmp=2022.0.1=h06a4308_3633
   - ipython=5.6.0=py27_0
   - ipython_genutils=0.2.0=pyhd3eb1b0_1
@@ -59,13 +58,10 @@ dependencies:
   - libpng=1.6.37=hbc83047_0
   - libprotobuf=3.11.2=hd408876_0
   - libstdcxx-ng=11.2.0=h1234567_1
-  - libtiff=4.2.0=h2818925_1
   - libuuid=1.0.3=h7f8727e_2
-  - libwebp-base=1.2.2=h7f8727e_0
   - libxcb=1.15=h7f8727e_0
   - libxml2=2.9.14=h74e7548_0
   - linecache2=1.0.0=py_1
-  - lz4-c=1.9.3=h295c915_1
   - markdown=3.1.1=py27_0
   - matplotlib=2.2.3=py27hb69df0a_0
   - mkl=2020.2=256
@@ -76,7 +72,6 @@ dependencies:
   - ncurses=6.3=h7f8727e_2
   - numpy=1.16.6=py27hbc911f0_0
   - numpy-base=1.16.6=py27hde5b4d6_0
-  - olefile=0.46=py27_0
   - openssl=1.1.1o=h7f8727e_0
   - opt_einsum=2.3.2=py_0
   - pathlib2=2.3.5=py27_0
@@ -84,7 +79,6 @@ dependencies:
   - pcre=8.45=h295c915_0
   - pexpect=4.8.0=pyhd3eb1b0_3
   - pickleshare=0.7.5=py27_0
-  - pillow=6.2.1=py27h34e0f95_0
   - pip=19.3.1=py27_0
   - prompt_toolkit=1.0.15=py27_0
   - protobuf=3.11.2=py27he6710b0_0
@@ -127,7 +121,6 @@ dependencies:
   - xz=5.2.5=h7f8727e_1
   - yaml=0.1.7=had09818_2
   - zlib=1.2.12=h7f8727e_2
-  - zstd=1.5.2=ha4553b6_0
   - pip:
     - orderedset==2.0.3
 prefix: /home/sjeiterj/anaconda3/envs/intrin
